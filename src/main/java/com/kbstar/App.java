@@ -9,7 +9,9 @@ public class App {
         TV tv = new STV();
         TV tv2 = new LTV();
         tv.turnOn();
+        tv.turnOff();
         tv2.turnOn();
+        tv2.turnOff();
 //        LTV stv = new LTV();
 //        stv.turnon();
 
